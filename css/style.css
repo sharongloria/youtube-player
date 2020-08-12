@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+/* Nav stuff */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    margin: 5px;
+    background-color: #ffffff;
+  }
+  
+  .navbar li {
+    display: inline;
+    padding: 0px 10px 0px 5px;
+    cursor: pointer;
+  }
+  #yt-logo{
+      width:120px;
+      height:20px
+  }
+  #search{
+    height:49px;
+    margin: -20px;
+    padding: -20px;
+    cursor: pointer;
+    width: 75px;
+    border: 1px solid #d3d3d3;
+    background-color:grey;
+    border-radius: 0 2px 2px 0;
+   
+  }
+  .navbar input[type="text"] {
+    width: 70%;
+    font-size: 16px;
+    line-height: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px 0 0 2px;
+    padding: 5px 5px 5px 10px;
+}
+ 
+  .center {
+    width: 1000px;
+    margin: auto;
+    
+    
+  }
+  #addVid, #bell, #bars, #user, #bars{
+      width:25px;
+      height:20px;
+  }
+  #apps{
+    width:25px;
+    height:20px;
+  }
+  
+  .left,.right {
+    display: flex;
+    align-items: center;
+    padding:0px;
+  }
+  
+  .navbar input {
+    width: 50%;
+  }
+
+
+/* Main stuff */
+
+main {
+	float: left;
+    width: 932px;
+	padding-left: 150px;
+    padding-top: 2%;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+#vid {
+	width: 1000px;
+    height: 524px;
+    top: 0;
+    left: 0;
+}
+
+#views{
+    color: gray;
+    font-size: 14px;
+}
+
+/* Aside stuff */
+
+aside {
+	float: right;
+    width: 550px;
+    padding-top: 3px;
+    padding-left: 3px;
+
+}
+
+
+
+#first-aside {
+    height: 130px;
+    width: 85%;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 16px;
+}
+
+.b-aside{
+    padding-bottom: 8px;
+    height: 120px;
+    width: 85%;
+}
+
+
+.thumbnails {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    float: left;
+}
+.thumbnails:hover{
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+
+.aside1 {
+    position: relative;
+    left: 10px;
+    
+}
+
+h3{
+    font-weight: bold;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: #030303;
+    margin-bottom: 5px;
+}
+
+.preview-creator {
+    padding-bottom: 1px;
+    color: grey;
+}
+
+h4 {
+    padding-bottom: 1px;
+    color: grey;
+    font-size: 16px;
+}
+
+h5 {
+    color: grey;
+    font-size: 16px;
+    padding: 0;
+}
